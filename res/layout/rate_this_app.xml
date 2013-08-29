@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:padding="20dip"
+    >
+    <TextView android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:text="@string/ratings_popup_do_you_like_this_app"
+              android:textSize="22sp"
+              android:paddingBottom="20dip"
+              android:layout_gravity="center"
+        />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+        <Button style="@style/RateButton"
+                android:text="@string/ratings_popup_love_it_button"
+                android:onClick="onLoveIt"
+            />
+
+        <Button style="@style/RateButton"
+                android:text="@string/ratings_popup_hate_it_button"
+                android:onClick="onHateIt"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

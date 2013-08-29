@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello android-ratings-popup!</string>
-    <string name="lib_name">android-ratings-popup</string>
+    <string name="ratings_popup_do_you_like_this_app">How do you like this app?</string>
+    <string name="ratings_popup_love_it_button">I love it</string>
+    <string name="ratings_popup_hate_it_button">I hate it</string>
+    <string name="ratings_popup_rate_toast">Rate our app on the marketplace.  Choose a star rating above.</string>
+    <string name="ratings_popup_tell_us_what_you_think">Tell us what you think.</string>
+    <string name="ratings_popup_email_subject">App Feedback</string>
+    <string name="ratings_popup_pick_email_application">Pick Email Application</string>
+    <string name="ratings_popup_email_text">Tell us how we can improve the app:
+    </string>
 </resources>

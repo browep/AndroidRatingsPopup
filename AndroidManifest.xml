@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.github.browep" android:versionCode="1" android:versionName="1.0-SNAPSHOT">
+          package="com.github.browep.ratingspopup" android:versionCode="1" android:versionName="1.0-SNAPSHOT">
+    <application
+            >
+        <activity
+                android:configChanges="orientation"
+                android:excludeFromRecents="true"
+                android:name="com.github.browep.ratingspopup.RatingsPopup"
+                android:screenOrientation="portrait"
+                android:theme="@android:style/Theme.Dialog">
+
+        </activity>
+
+    </application>
+
 
 </manifest>
 
