@@ -1,0 +1,11 @@
+<resources>
+    <string name="ratings_popup_do_you_like_this_app">"Wie sehen Sie diese App gefällt?"</string>
+    <string name="ratings_popup_love_it_button">"Ich liebe es"</string>
+    <string name="ratings_popup_hate_it_button">"Ich hasse es,"</string>
+    <string name="ratings_popup_rate_toast">"Bewerten Sie unsere App auf dem Markt. Wählen Sie oben eine Sterne-Bewertung."</string>
+    <string name="ratings_popup_tell_us_what_you_think">"Sagen Sie uns was Sie denken."</string>
+    <string name="ratings_popup_email_subject">"App Feedback"</string>
+    <string name="ratings_popup_pick_email_application">"Wählen Sie E-Mail-Anwendung"</string>
+    <string name="ratings_popup_email_text">"Sagen Sie uns, wie wir die App zu verbessern:
+    "</string>
+</resources>
